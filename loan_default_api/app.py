@@ -6,7 +6,7 @@ import requests
 import streamlit as st
 
 
-DEFAULT_API_URL = "http://127.0.0.1:8000"
+DEFAULT_API_URL = "https://loan-default-prediction-5.onrender.com/"
 API_URL = os.getenv("LOAN_API_URL", DEFAULT_API_URL).rstrip("/")
 
 
